@@ -1,0 +1,41 @@
+.button{
+    display: block;
+    max-width: 150px;
+    padding: 16px 0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+}
+
+.button:hover{
+    background: #42AE60;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+.black{
+    border: 1px solid #273720;
+    color: #273720;
+}
+
+@media screen and (max-width: 1024px) {
+    .button{
+        max-width: 130px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button{
+        max-width: 100%;
+    }
+}

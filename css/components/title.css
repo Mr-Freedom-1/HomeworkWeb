@@ -1,0 +1,98 @@
+.title{
+    width: 100%;
+    padding: 0 96px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    animation: down 2.5s ease-in-out forwards;
+    animation-duration: 2.5s;
+}
+
+.title h3{
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #273720;
+    margin-bottom: 6px;
+}
+
+.title h2{
+    font-size: 71px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #273720;
+    margin-bottom: 24px;
+}
+
+.title p{
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #273720;
+    margin-bottom: 16px;
+}
+
+.green{
+    background: #273720;
+    padding: 119px 110px 223px;
+}
+
+.green h2{
+    color: #FAF8F7;
+}
+
+@media screen and (max-width: 1024px) {
+    .title{
+        padding: 0 70px;
+    }
+
+    .title h3{
+        font-size: 14px;
+    }
+
+    .title h2{
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    .green h2{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .title p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        padding: 0 30px;
+    }
+
+    .title h3{
+        font-size: 13px;
+    }
+
+    .title h2{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 12px;
+    }
+
+    .green h2{
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .title p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

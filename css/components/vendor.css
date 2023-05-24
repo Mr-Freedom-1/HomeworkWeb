@@ -1,0 +1,123 @@
+.vendor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 0 60px;
+}
+
+.vendor-condition{
+    width: 470px;
+    margin-right: 15px;
+    opacity: 0;
+    animation: right 2.5s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.vendor-condition p{
+    font-size: 31px;
+    line-height: 38px;
+    color: #222222;
+    padding: 24px 0;
+    max-width: 390px;
+}
+
+.vendor-condition span{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #273720;;
+}
+
+.vendor-statistic{
+    max-width: 520px;
+    opacity: 0;
+    animation: left 2.5s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.vendor-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 470px;
+    margin: 0 auto;
+}
+
+.vendor-header p{
+    font-size: 16px;
+    color: #222222;
+}
+
+.vendor-header a{
+    display: block;
+    padding: 16px 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.vendor-header a:hover{
+    background: #195229;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .vendor{
+        margin-bottom: 130px;
+        padding: 0 50px;
+        flex-direction: column;
+    }
+
+    .vendor-condition{
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .vendor-condition p{
+        max-width: 100%;
+    }
+
+    .vendor-header a{
+        padding: 14px 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vendor{
+        margin-bottom: 100px;
+        padding: 0 30px;
+    }
+
+    .vendor-condition p{
+        max-width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .vendor-header a{
+        padding: 10px 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
